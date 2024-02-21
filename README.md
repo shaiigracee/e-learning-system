@@ -39,18 +39,14 @@ Requirements:
 Installation/Setup:
 
 > Open your XAMPP/WAMP's Control Panel and start the "Apache" and "MySQL".
-
 > Extract the downloaded source code zip file.
-
-> If you are using XAMPP, copy the extracted source code folder and paste it into the XAMPP's "htdocs" folder. 
-
+> If you are using XAMPP, copy the extracted source code folder and paste it into the XAMPP's "htdocs" folder.
 >Browse the PHPMyAdmin in a browser. i.e http://localhost/phpmyadmin
-
 > Create a new database named "elearning".
-
 > Import the provided SQL file in your newly created database. The SQL file is known as "elearning.sql" inside the "database" folder.
-
-> Browse the Simple eLearning System Project in a browser. i.e. http://localhost/elearning
+>  In you XAMPP, click the shell change the directory to the file.C:\xampp\htdocs\elearning-submission\elearning-submission
+> Then type # php -S 127.0.0.1:8081
+> Browse the Simple eLearning System Project in a browser. i.e. (http://127.0.0.1:8081/admin/login.php)
 
 
 
